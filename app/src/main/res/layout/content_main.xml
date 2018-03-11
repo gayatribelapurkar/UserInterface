@@ -20,18 +20,26 @@
         android:layout_marginTop="300dp"
         >
 
-        <Button
+        <ImageButton
             android:layout_width="120dp"
             android:layout_height="120dp"
+            android:id="@+id/cam"
             android:layout_marginLeft="40dp"
-            
+            android:src="@drawable/cam"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:padding="2dp"
             />
 
-        <Button
+        <ImageButton
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:layout_marginLeft="60dp"
-
+            android:id="@+id/gallery"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/gallery"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:padding="2dp"
             />
 
     </LinearLayout>
