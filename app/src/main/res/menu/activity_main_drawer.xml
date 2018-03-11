@@ -7,7 +7,7 @@
         <item
             android:id="@+id/home-id"
             android:title="Home"
-            android:icon="@drawable/home">
+            android:icon="@mipmap/ic_launcher">
         </item>
         <item
             android:id="@+id/feedback-id"

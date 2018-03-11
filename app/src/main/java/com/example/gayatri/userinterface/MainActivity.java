@@ -40,10 +40,9 @@ public class MainActivity extends AppCompatActivity
                 Toast.makeText(MainActivity.this,"Works",Toast.LENGTH_LONG).show();
             }
         });
-
         FloatingActionButton fab =findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
-            @Override
+             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
@@ -105,5 +104,6 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.about_id){
         }
+        return true;
     }
 }
