@@ -7,7 +7,8 @@
         <item
             android:id="@+id/home-id"
             android:title="Home"
-            android:icon="@mipmap/ic_launcher">
+            android:icon="@mipmap/ic_launcher"
+            >
         </item>
         <item
             android:id="@+id/feedback-id"
@@ -18,6 +19,7 @@
             android:id="@+id/about-id"
             android:title="About Us"
             android:icon="@drawable/about">
+            l
         </item>
 
     </group>
